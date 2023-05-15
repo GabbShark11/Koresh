@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.navigation a{
+    position: relative;
+    left: 75pc;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a:hover{
+    color:rgb(46, 56, 255) ;
+    transition: 0.5s;
+}
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.myselfWrapper{
+    position: relative;
+    left: 65pc;
+    top: 40px;
+}
+
+.mynameWrapper{
+    font-size: 4rem;
+    position: relative;
+    left: 22pc;
+    bottom: 10pc;
+}
+
+.martin{
+    font-size: 4rem;
+    position: relative;
+    left: 9pc;
+    bottom: 5.5pc;
+}
+
+.marga{
+    font-size: 4rem;
+    position: relative;
+    right: 22pc;
+    bottom: 1pc;
+}
